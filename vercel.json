@@ -22,5 +22,11 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/assets/icon-:size.png",
+      "destination": "/api/icon?size=:size"
+    }
   ]
 }
