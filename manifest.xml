@@ -6,13 +6,13 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Signature Manager"/>
   <Description DefaultValue="Insert a managed email signature in Outlook."/>
-  <IconUrl DefaultValue="https://YOUR-HTTPS-HOST.example.com/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-HTTPS-HOST.example.com/assets/icon-128.png"/>
-  <SupportUrl DefaultValue="https://YOUR-HTTPS-HOST.example.com/"/>
-  <AppDomains><AppDomain>https://YOUR-HTTPS-HOST.example.com</AppDomain></AppDomains>
+  <IconUrl DefaultValue="https://signature-omega-ashen.vercel.app/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://signature-omega-ashen.vercel.app/assets/icon-128.png"/>
+  <SupportUrl DefaultValue="https://signature-omega-ashen.vercel.app/"/>
+  <AppDomains><AppDomain>https://signature-omega-ashen.vercel.app</AppDomain></AppDomains>
   <Hosts><Host Name="Mailbox"/></Hosts>
   <Requirements><Sets><Set Name="Mailbox" MinVersion="1.3"/></Sets></Requirements>
-  <FormSettings><Form xsi:type="ItemEdit"><DesktopSettings><SourceLocation DefaultValue="https://YOUR-HTTPS-HOST.example.com/taskpane.html"/></DesktopSettings></Form></FormSettings>
+  <FormSettings><Form xsi:type="ItemEdit"><DesktopSettings><SourceLocation DefaultValue="https://signature-omega-ashen.vercel.app/taskpane.html"/></DesktopSettings></Form></FormSettings>
   <Permissions>ReadWriteItem</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Or"><Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit"/></Rule>
   <DisableEntityHighlighting>false</DisableEntityHighlighting>
@@ -26,8 +26,8 @@
       </Group></OfficeTab></ExtensionPoint>
     </DesktopFormFactor></Host></Hosts>
     <Resources>
-      <bt:Images><bt:Image id="Icon.16" DefaultValue="https://YOUR-HTTPS-HOST.example.com/assets/icon-16.png"/><bt:Image id="Icon.32" DefaultValue="https://YOUR-HTTPS-HOST.example.com/assets/icon-32.png"/><bt:Image id="Icon.80" DefaultValue="https://YOUR-HTTPS-HOST.example.com/assets/icon-80.png"/></bt:Images>
-      <bt:Urls><bt:Url id="Taskpane.Url" DefaultValue="https://YOUR-HTTPS-HOST.example.com/taskpane.html"/></bt:Urls>
+      <bt:Images><bt:Image id="Icon.16" DefaultValue="https://signature-omega-ashen.vercel.app/assets/icon-16.png"/><bt:Image id="Icon.32" DefaultValue="https://signature-omega-ashen.vercel.app/assets/icon-32.png"/><bt:Image id="Icon.80" DefaultValue="https://signature-omega-ashen.vercel.app/assets/icon-80.png"/></bt:Images>
+      <bt:Urls><bt:Url id="Taskpane.Url" DefaultValue="https://signature-omega-ashen.vercel.app/taskpane.html"/></bt:Urls>
       <bt:ShortStrings><bt:String id="Group.Label" DefaultValue="Signatures"/><bt:String id="Button.Label" DefaultValue="Insert signature"/></bt:ShortStrings>
       <bt:LongStrings><bt:String id="Button.Description" DefaultValue="Insert your company signature into this message."/></bt:LongStrings>
     </Resources>
